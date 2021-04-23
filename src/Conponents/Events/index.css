@@ -1,0 +1,8 @@
+#events{
+    padding-top: 30px;
+    max-height: 300px;
+    display: flex;
+    border: 1px solid snow;
+    overflow: auto;
+
+}

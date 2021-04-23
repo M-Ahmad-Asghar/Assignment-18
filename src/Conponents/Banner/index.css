@@ -1,0 +1,60 @@
+#banner{
+    background-color: #f8f9fb;
+    display: flex;
+    padding-top: 10px;
+}
+#jenkinsB{
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #4a5568;
+}
+#tagLine{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a5568;
+    font-weight: bold;
+}
+#tagDisp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a5568;
+}
+#docButton{
+     background-color: #6c757d; 
+     width: auto;
+     font-size: 17px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding:  5px 10px 5px 10px;
+     border-radius: 5px;
+     border: none;
+     color: white;  
+}
+#downButton{
+    background-color: #d24939; 
+    width: auto;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:  5px 10px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white; 
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1146px) {
+    #banner{
+        /* padding-left: 30%; */
+    }
+    #jnkImg{
+        width: 2%;
+        opacity: 10%;
+    }
+    .avs{
+        display:grid;  
+    }
+    .avs button{
+        margin: 10px
+    }
+    .spac{
+        display: none;
+    }
+}
